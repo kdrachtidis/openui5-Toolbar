@@ -2,7 +2,8 @@
   height="100%"
   xmlns:mvc="sap.ui.core.mvc"
   xmlns:core="sap.ui.core"
-  xmlns="sap.m">
+  xmlns="sap.m"
+  xmlns:f="sap.f">
   <OverflowToolbar>
     <MenuButton text="File">
       <menu>
@@ -90,4 +91,35 @@
     <ToolbarSpacer />
 
   </OverflowToolbar>
+  <Toolbar height="4rem">
+    <f:GridList>
+      <f:GridListItem>
+        <VBox>
+          
+          <Title text="title"
+            wrapping="true" />
+          <Label text="subtitle"
+            wrapping="true" />
+        </VBox>
+      </f:GridListItem>
+       <f:GridListItem>
+        <VBox>
+          
+          <Title text="title"
+            wrapping="true" />
+          <Label text="subtitle"
+            wrapping="true" />
+        </VBox>
+      </f:GridListItem>
+       <f:GridListItem>
+        <VBox>
+          
+          <Title text="title"
+            wrapping="true" />
+          <Label text="subtitle"
+            wrapping="true" />
+        </VBox>
+      </f:GridListItem>
+    </f:GridList>
+  </Toolbar>
 </mvc:View>
